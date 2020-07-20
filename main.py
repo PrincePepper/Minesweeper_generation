@@ -62,5 +62,5 @@ class Place:
         self.area = self.b_area[1:self.shape[0] + 1, 1:self.shape[1] + 1]
 
 
-pl = Place([1000, 1000])
-pl.fill_bombs(100000)
+pl = Place([10, 10])
+pl.fill_bombs(50)
